@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         new Main().init();
+        System.out.println("Hello World");
     }
 
     private void init() {
