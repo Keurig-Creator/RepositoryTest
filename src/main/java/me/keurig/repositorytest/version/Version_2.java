@@ -5,4 +5,10 @@ public class Version_2 implements Version {
     public void print() {
         System.out.println("Version 2");
     }
+
+    @Override
+    public void close() {
+        print();
+        System.out.println("Closed 2");
+    }
 }
