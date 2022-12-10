@@ -14,7 +14,7 @@ public class Main {
     }
 
     private void init() {
-        v = new Version_2();
-        v.print();
+        v = new Version_1();
+        v.close();
     }
 }
