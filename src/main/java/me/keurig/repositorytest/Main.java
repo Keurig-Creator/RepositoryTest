@@ -6,16 +6,13 @@ import me.keurig.repositorytest.version.Version_2;
 
 public class Main {
     
-    // patch 01
+    // Version
     private Version version;
 
     public static void main(String[] args) {
 
         // Run
         new Main().init();
-
-        // Print
-        System.out.println("Hello World");
     }
 
     private void init() {
