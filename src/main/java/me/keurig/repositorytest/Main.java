@@ -9,7 +9,11 @@ public class Main {
     private Version v;
 
     public static void main(String[] args) {
+
+        // Run
         new Main().init();
+
+        // Print
         System.out.println("Hello World");
     }
 
