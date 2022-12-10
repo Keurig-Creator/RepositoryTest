@@ -19,7 +19,7 @@ public class Main {
     }
 
     private void init() {
-        version = new Version_1();
+        version = new Version_2();
         version.close();
     }
 }
