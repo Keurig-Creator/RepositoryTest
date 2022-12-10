@@ -6,7 +6,7 @@ import me.keurig.repositorytest.version.Version_2;
 
 public class Main {
 
-    private Version v;
+    private Version version;
 
     public static void main(String[] args) {
         new Main().init();
@@ -14,7 +14,7 @@ public class Main {
     }
 
     private void init() {
-        v = new Version_1();
-        v.close();
+        version = new Version_1();
+        version.close();
     }
 }
