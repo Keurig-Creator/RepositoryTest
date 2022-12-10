@@ -13,7 +13,7 @@ public class Main {
     }
 
     private void init() {
-        version = new Version_2();
-        version.print();
+        version = new Version_1();
+        version.close();
     }
 }
