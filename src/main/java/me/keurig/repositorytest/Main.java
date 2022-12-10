@@ -20,6 +20,6 @@ public class Main {
 
     private void init() {
         version = new Version_2();
-        version.close();
+        version.print();
     }
 }
